@@ -1,3 +1,5 @@
 change 1 + 1 = 2
 
-change 2
+change 2+2=4
+
+var x=“What a beautiful day!”;
