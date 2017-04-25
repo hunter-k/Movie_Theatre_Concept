@@ -1,4 +1,12 @@
-git change 1 + 1 = 2
+﻿git change 1 + 1 = 2
+
+
+change 2 potential conflict
+
+
+change 2+2=4
+
+var x=“What a beautiful day!”;
 
 
 change 2 potential conflict
