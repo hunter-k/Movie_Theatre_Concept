@@ -6,7 +6,8 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"  crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Sundown Drive-In</title>
+        <title>theater</title>
+
   </head>
   <body>
 
@@ -14,19 +15,26 @@
       <h1><b>Sundown Drive-In Movies</b></h1>
     </div>
 
-      <header>
-        <form>
-          <ul>
-          <h2>Please enter your information</h2>
-          <li><label>First Name <input type="text" required></label></li>
-          <li><label>Last Name <input type="text" required></label></li>
-          <li><label>Phone Number <input type="tel" required></label></li>
-          <li><label>Email <input type="email" required></label></li>
-          <li><input type="submit"></li>
-        </ul>
-        </form>
 
-        <p>Select your parking spot below</p>
+        <section>
+
+
+        <div class="dialog" id="myform">
+          <form id="formid">
+            <p id="formMsg"></p>
+            <h2>Please enter your information</h2>
+            <label>First Name <input id="fName" type="text" required></label><br>
+            <label>Last Name <input id="lName" type="text" required></label><br>
+            <label>Phone Number <input id="pNumber" type="tel" required></label><br>
+            <label>Email <input id="userEmail" type="email" required></label><br>
+            <button type="button" id="reserveButton">Reserve Seat</button>
+            <button type="button" id="cancel">cancel</button>
+          </form>
+        </div>
+        </section>
+
+
+
       </header>
 
       <div class="container">
@@ -62,22 +70,11 @@
           <div class="col-xs-4"></div>
           <button id="C5" class="btn btn-default car"><img src="Drive-in-Beetle.png">C5</button>
           <button id="C6" class="btn btn-default car"><img src="Drive-in-Beetle.png">C6</button>
+
         </div>
       </div>
-      <section>
 
-        <form id="formid">
-          <p id="formMsg"></p>
-          <h2>Please enter your information</h2>
-          <label>First Name <input id="fName" type="text" required></label>
-          <label>Last Name <input id="lName" type="text" required></label>
-          <label>Phone Number <input id="pNumber" type="tel" required></label>
-          <label>Email <input id="userEmail" type="email" required></label>
-          <button type="button" id="reserveButton">Reserve Seat</button>
-          <button type="button" id="cancel">cancel</button>
-        </form>
 
-      </section>
     </div>
 
  <audio controls autoplay>

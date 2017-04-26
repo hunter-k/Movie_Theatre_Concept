@@ -28,6 +28,7 @@ $(function () {
     function bringForm (seatNumber) {
       $('#formid').css('display','block');
       $('#formMsg').text("You have selected seat " + seatNumber);
+       $("#myform").show(500);
     }
 
     //function to add objects to out listArr when form is submitted
@@ -57,7 +58,8 @@ $(function () {
     });
 
     function cancel () {
-      $('#formid').css('display','none');
+      $('#myform').hide(300);
+      // $('#myform').css("display","none");
     }
 
 
