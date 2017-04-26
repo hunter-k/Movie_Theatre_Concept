@@ -4,6 +4,10 @@ margin:20px;
 
 }
 
+.car {
+  margin-left: 10px !important;
+}
+
 /*body {
    background-image: url(drive-in-sign.jpg);
    background-repeat: no-repeat;
