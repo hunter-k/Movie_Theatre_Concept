@@ -18,6 +18,14 @@ h1{
   color: white;
 }
 
+#screen {
+  height: 10px;
+  width: 600px;
+  background-color: black;
+  margin: auto;
+
+
+}
 
 .row {
   display:flex;
