@@ -15,7 +15,8 @@ $(function () {
     }
   }
 
-    $(".seat").on('click', function() {
+    $(".car").on('click', function() {
+      console.log('clicked');
       seatNumber = $(this).attr('id');
       findIfReserved(seatNumber);
       if (!found) {
@@ -25,19 +26,29 @@ $(function () {
     });
 
     function bringForm (seatNumber) {
-      $('#form').css('display','block');
+      $('#formid').css('display','block');
       $('#formMsg').text("You have selected seat " + seatNumber);
     }
 
     //function to add objects to out listArr when form is submitted
     $('#reserveButton').on('click', function() {
-      var userName = $('#name').val();
-      var userEmail = $('#email').val();
-      var newObj = {seatN: seatNumber, name: userName, email: userEmail, reserved: true};
+      var fName = $('#fName').val();
+      var lName = $('#lName').val();
+      var userEmail = $('#userEmail').val();
+      var pNumber = $('#pNumber').val();
+      var newObj = {seatN: seatNumber,
+                    firstName: fName,
+                    lastName: lName,
+                    phoneNumber: pNumber,
+                    email: userEmail,
+                    reserved: true};
       listArr.push(newObj);
       console.log(newObj);
       alert("You have reserved seat " + seatNumber);
       cancel();
+      $("#" + seatNumber).css('background-color','red');
+      $("#" + seatNumber).attr('title','reserved by ' + fName + " " + lName);
+
 
     });
 
@@ -46,7 +57,7 @@ $(function () {
     });
 
     function cancel () {
-      $('#form').css('display','none');
+      $('#formid').css('display','none');
     }
 
 
