@@ -1,15 +1,16 @@
-/*div {
-  display:inline-block;
-  border-style: solid;
+.row {
+  display:flex;
+margin:20px;
+
 }
 
-body {
+/*body {
    background-image: url(drive-in-sign.jpg);
    background-repeat: no-repeat;
    background-position: center;
    background-attachment: fixed;
 
-}*/
+}*/*/
 
 /*.jumbotron {
     margin-bottom: 0px;
