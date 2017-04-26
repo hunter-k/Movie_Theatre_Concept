@@ -61,3 +61,21 @@ margin:20px;
 #formid {
   display: none;
 }
+
+.dialog{
+  border:5px solid #666;
+  padding:10px;
+  background:#3A3A3A;
+  position:absolute;
+  display:none;
+  z-index: 99;
+}
+.dialog label{
+  display:inline-block;
+  color:#cecece;
+}
+input[type=text]{
+  border:1px solid #333;
+  display:inline-block;
+  margin:5px;
+}
