@@ -44,6 +44,9 @@ $(function () {
       console.log(newObj);
       alert("You have reserved seat " + seatNumber);
       cancel();
+      $("#" + seatNumber).css('background-color','red');
+      $("#" + seatNumber).attr('title','reserved by ' + fName + " " + lName);
+
 
     });
 
