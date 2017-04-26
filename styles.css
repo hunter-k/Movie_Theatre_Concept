@@ -5,6 +5,20 @@
   font-weight: normal;
 }
 
+
+h1{
+  font-family: "fabian", sans-serif;
+}
+
+#infoMsg {
+  color: white;
+}
+
+#formMsg {
+  color: white;
+}
+
+
 .row {
   display:flex;
 margin:20px;
