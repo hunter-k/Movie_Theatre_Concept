@@ -1,6 +1,6 @@
 $(function () {
   //intialize empty array list that will hold our seat user objects
-  
+
 
   var listArr = [];
   var seatNumber = '';
