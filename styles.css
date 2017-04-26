@@ -1,3 +1,15 @@
+
+@font-face {
+  font-family: "fabian";
+  src: url("fabian.ttf");
+  font-weight: normal;
+}
+
+h1{
+  font-family: "fabian", sans-serif;
+}
+
+
 .row {
   display:flex;
 margin:20px;
@@ -13,19 +25,21 @@ margin:20px;
    background-repeat: no-repeat;
    background-position: center;
    background-attachment: fixed;
-
 }*/*/
 
-/*.jumbotron {
+.jumbotron {
     margin-bottom: 0px;
     background-image: url(drive-in-sign.jpg);
     background-position: 0% 25%;
     background-size: cover;
     background-repeat: no-repeat;
-}*/
 
+}
 .jumbotron {
-    margin-bottom: 0px;
+  font-family: 'fabian', sans-serif;
+  font-size: 30px;
+  text-align: center;
+      margin-bottom: 0px;
     opacity: 0.5;
     background: #000 url(drive-in-sign.jpg) center center;
     width: 100%;
