@@ -54,7 +54,7 @@ $(function () {
                     email: userEmail};
       listArr.push(newObj);
       // alerts user that their seat is reserved
-      alert("You have reserved seat " + seatNumber + ".");
+      BootstrapDialog.alert("You have reserved seat " + seatNumber + ".");
       cancel();
       // changes its background color to red
       $("#" + seatNumber).css('background-color','red');
