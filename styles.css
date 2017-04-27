@@ -25,7 +25,6 @@ h1{
   width: 800px;
   background-color: black;
   margin-left: 25%;
-  margin-bottom: 3%;
   text-align: center;
   font-size: 20px;
   font-weight:bold;
@@ -118,6 +117,7 @@ input[type=email]{
   background-color:black;
   opacity:0.7;
   border-radius:2%;
+  border-radius: 4%;
   margin: -4%;
   height:500px;
   padding-top:2%;
@@ -125,12 +125,14 @@ input[type=email]{
 
   ol{
     color: white;
-    text-align: justify;
+    text-align: left;
+    font-size: 15px;
     width:160px;
     height:100px;
     background-color:black;
-    padding-top:1px;
+    padding-top:10px;
     border-radius: 6%;
+    padding-left: 30px;
   }
 
   #instructions {
@@ -138,7 +140,7 @@ input[type=email]{
     height: 60px;
     margin-left: 20px;
     margin-top: 100px;
-    opacity:0.6;
+    opacity:0.8;
   }
   #audio{
     display:none;
