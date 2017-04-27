@@ -19,17 +19,23 @@ h1{
 }
 
 #screen {
-  height: 10px;
-  width: 600px;
+  height: 20px;
+  width: 800px;
   background-color: black;
-  margin: auto;
+  margin-left: 25%;
+  margin-bottom: 3%;
+  text-align: center;
+  color:white;
+  opacity: 0.5;
 
 
 }
 
 .row {
   display:flex;
-margin:20px;
+margin:20px 0px;
+opacity:0.7;
+width: 1000px;
 
 }
 
@@ -41,7 +47,7 @@ body {
    background-image: url(Images/nightsky.jpeg);
    background-repeat: no-repeat;
    background-position: center;
-   background-attachment: fixed;
+   background:cover;
 }
 
 .jumbotron {
@@ -60,7 +66,6 @@ body {
     height: 100%;
     background-size: cover;
     overflow: hidden;
-    position:absolute;
     position: relative;
     padding: 50px;
 }
@@ -87,3 +92,13 @@ input[type=text]{
   display:inline-block;
   margin:5px;
 }
+
+.container{
+  margin-left: 200px !important;
+  background-color:black;
+  opacity:0.7;
+  border-radius: 5%;
+  margin: 5%;
+  height:500px;
+  padding-top:2%;
+  }
