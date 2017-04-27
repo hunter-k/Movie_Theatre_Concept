@@ -148,36 +148,29 @@ input[type=email]{ /*styles the users email text*/
 }
 
 .container{ /*styles the container holding the three rows*/
-  margin-left: 200px !important;
-  margin-right: 300px !important;
+  /*margin-left: 200px !important;
+  margin-right: 300px !important;*/
   background-color:black;
   opacity:0.7;
   border-radius:2%;
   border-radius: 4%;
-  margin: -4%;
-  width: 900px !important;
-  height:500px;
-  padding-top:2%;
+  /*margin: -4%;*/
+  /*width: 900px !important;
+  height:500px;*/
+  /*padding-top:2%;*/
 }
 
 ol{ /*styles the small instruction box*/
-  color: white;
-  text-align: left;
-  font-size: 15px;
-  width:160px;
-  height:100px;
-  background-color:black;
-  padding-top:10px;
-  border-radius: 6%;
-  padding-left: 30px;
+
+
 }
 
 #instructions{ /*styles the div with an id of instructions*/
-  width: 40px;
+  /*width: 40px;
   height: 60px;
   margin-left: 20px;
   margin-top: 100px;
-  opacity:0.8;
+  opacity:0.8;*/
 }
 
 #audio{ /*hides the audio player*/
@@ -188,4 +181,15 @@ ol{ /*styles the small instruction box*/
   float: left;
   color: white;
   font-size: 4em;
+}
+
+.footer {
+  color: white;;
+  background-color:black;
+  position: relative;
+  margin-top: -150px; /* negative value of footer height */
+  height: 150px;
+  clear:both;
+  padding-top:20px;
+  text-align: center;
 }
