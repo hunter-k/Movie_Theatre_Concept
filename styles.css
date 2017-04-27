@@ -134,3 +134,7 @@ input[type=text]{
   #audio{
     display:none;
   }
+
+#backBtn {
+  text-align: right;
+}

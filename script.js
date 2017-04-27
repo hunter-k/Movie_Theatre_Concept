@@ -72,9 +72,16 @@ $(function () {
     $("#cancel").on('click', function() {
       cancel();
     });
+    $("#backBtn").on('click', function() {
+      cancel();
+    });
+
+
 
     // cancel function that hides info form
     function cancel () {
       $('#myform').hide(300);
     }
+
+
   });
