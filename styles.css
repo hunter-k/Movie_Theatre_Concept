@@ -71,6 +71,10 @@ body {
     padding: 50px;
 }
 
+h2{
+  text-shadow: 1px 1px 1px #efefef;
+}
+
 
 #formid {
   display: none;
