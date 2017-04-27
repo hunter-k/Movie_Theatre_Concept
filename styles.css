@@ -155,8 +155,6 @@ input[type=email]{ /*styles the users email text*/
   margin-bottom: 10px;
 }
 
-
-
 #audio{ /*hides the audio player*/
   display:none;
 }
@@ -178,3 +176,8 @@ input[type=email]{ /*styles the users email text*/
   padding-top:5px;
   text-align: center;
 }
+
+@media (max-width: 600px) {
+  .container {
+    background-color: transparent;
+  }
