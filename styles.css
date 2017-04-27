@@ -141,5 +141,7 @@ input[type=text]{
   }
 
 #backBtn {
-  text-align: right;
+  float: left;
+  color: white;
+  font-size: 4em;
 }
