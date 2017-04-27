@@ -1,4 +1,7 @@
 $(function () {
+  // initialize tool tips
+  $('[data-toggle="tooltip"]').tooltip();
+
   //intialize empty array list that will hold our seat user objects
 
 
@@ -48,7 +51,11 @@ $(function () {
       alert("You have reserved seat " + seatNumber + ".");
       cancel();
       $("#" + seatNumber).css('background-color','red');
-      $("#" + seatNumber).attr('title','reserved by ' + fName + " " + lName);
+      $("#" + seatNumber).attr('date-toggle','tool-tip');
+      $("#" + seatNumber).attr('data-html', 'true');
+      $("#" + seatNumber).tooltip({
+							title: "Reserved by " + fName + ' ' + lName + '<br>' + userEmail + '<br>' + pNumber
+						});
 
 
     });
@@ -62,10 +69,14 @@ $(function () {
       // $('#myform').css("display","none");
     }
 
-
-
-
-
+    $(".car").on('hover',function() {
+      $(".car").attr('date-toggle','tool-tip');
+      $(".car").attr('data-html', 'true');
+      var msg = "Reserve this spot!"
+      $(".car").tooltip({
+							title: msg
+						});
+    });
 
 
 
