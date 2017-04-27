@@ -50,14 +50,6 @@ h1{ /*jumbotron font*/
   margin-left: 10px !important;
 }
 
-
-/*body{ position images on body
-  background-image: url(Images/nightsky.jpeg);
-  background-repeat: no-repeat;
-  background-position:center;
-  background-size: cover;
-}*/
-
 .jumbotron{ /*jumbotron styling*/
   margin-bottom: 0px;
   background-image: url(Images/nightsky.jpeg);
@@ -154,11 +146,6 @@ input[type=tel]{ /*styles the users telephone text*/
 input[type=email]{ /*styles the users email text*/
   color: black;
 }
-
-
-/*.container{ /*styles the container holding the three rows
-  margin-left: 200px !important;
-}*/
 
 .container{ /*styles the container holding the three rows*/
   margin-left: 200px !important;
