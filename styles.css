@@ -104,3 +104,14 @@ input[type=text]{
   height:500px;
   padding-top:2%;
   }
+
+  ol{
+    color: white;
+    text-align: ;
+    margin: 15px;
+    border-radius: 5%;
+    width:160px;
+    height:100px;
+    background-color:black;
+    opacity:0.5;
+  }
