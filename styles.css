@@ -22,7 +22,7 @@ h1{
 
 #screen {
   height: 20px;
-  width: 800px;
+  width: 700px;
   background-color: black;
   margin-left: 25%;
   margin-bottom: 3%;
@@ -112,11 +112,18 @@ input[type=text]{
 
   ol{
     color: white;
-    text-align: ;
+    text-align: center ;
     margin: 15px;
     border-radius: 5%;
     width:160px;
     height:100px;
     background-color:black;
     opacity:0.5;
+  }
+
+  #instructions {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 100px;
   }
