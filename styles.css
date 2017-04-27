@@ -1,27 +1,28 @@
 
 
-@font-face {
+@font-face{ /*font jumbotron*/
   font-family: "fabian";
   src: url("fabian.ttf");
   font-weight: normal;
 }
+
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
+/*link above is glyphicon on form, chevron left to cancel*/
 
 
-
-h1{
+h1{ /*jumbotron font*/
   font-family: "fabian", sans-serif;
 }
 
-#infoMsg {
+#infoMsg{ /*font color on js h1 heading*/
   color: white;
 }
 
-#formMsg {
+#formMsg{ /*font color on form*/
   color: white;
 }
 
-#screen {
+#screen{ /*styles the screen location on the page*/
   height: 30px;
   width: 800px;
   background-color: black;
@@ -33,89 +34,88 @@ h1{
   opacity: 0.8;
   margin-top: 10px;
   border-radius:5%;
-
 }
 
-.row {
+.row{ /*styles our three main rows of buttons*/
   display:flex;
   margin:20px 0px;
   opacity:0.7;
   width: 1000px;
-
 }
 
-.car {
+.car{ /*moves our car image within the button*/
   margin-left: 10px !important;
 }
 
-body {
-   background-image: url(Images/nightsky.jpeg);
-   background-repeat: no-repeat;
-   background-position:center;
-   background-size: cover;
-   }
+body{ /*position images on body*/
+  background-image: url(Images/nightsky.jpeg);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+}
 
-.jumbotron {
-    margin-bottom: 0px;
-    background-image: url(Images/nightsky.jpeg);
-    background-position: 0% 25%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: 'fabian', sans-serif;
-    font-size: 70px !important;
-    color: brown !important;
-    text-shadow: 3px 3px 2px #efefef;
-    text-align: center;
-    color: brown;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    overflow: hidden;
-    position: relative;
-    padding: 50px;
-  }
+.jumbotron{ /*jumbotron styling*/
+  margin-bottom: 0px;
+  background-image: url(Images/nightsky.jpeg);
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'fabian', sans-serif;
+  font-size: 70px !important;
+  color: brown !important;
+  text-shadow: 3px 3px 2px #efefef;
+  text-align: center;
+  color: brown;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  padding: 50px;
+}
 
 
-h2{
+h2{ /*jumbotron text*/
   text-shadow: 1px 1px 1px #efefef;
 }
 
-
-#formid {
+#formid{ /*input form hidden until button clicked*/
   display: none;
 }
-.dialog{
+
+.dialog{ /*styles the form box*/
   border-radius: 15px;
   padding:10px;
   background-image: url(Images/nightsky.jpeg);
   background-size:cover;
-  /*background: rgba(51, 51, 52, 0.95);*/
   position:absolute;
   display:none;
   z-index: 99;
   margin: auto;
   text-align: center;
 }
-.dialog label{
+
+.dialog label{ /*styles the form box labels*/
   display:inline-block;
   color:#cecece;
 }
-input[type=text]{
+
+input[type=text]{ /*styles the users input text*/
   border:1px solid #333;
   display:inline-block;
   margin:5px;
   color: black;
 }
 
-input[type=tel]{
+input[type=tel]{ /*styles the users telephone text*/
   color: black;
 }
 
-input[type=email]{
+input[type=email]{ /*styles the users email text*/
   color: black;
 }
 
-.container{
+.container{ /*styles the container holding the three rows*/
   margin-left: 200px !important;
   background-color:black;
   opacity:0.7;
@@ -124,32 +124,33 @@ input[type=email]{
   margin: -4%;
   height:500px;
   padding-top:2%;
-    }
+}
 
-  ol{
-    color: white;
-    text-align: left;
-    font-size: 15px;
-    width:160px;
-    height:100px;
-    background-color:black;
-    padding-top:10px;
-    border-radius: 6%;
-    padding-left: 30px;
-  }
+ol{ /*styles the small instruction box*/
+  color: white;
+  text-align: left;
+  font-size: 15px;
+  width:160px;
+  height:100px;
+  background-color:black;
+  padding-top:10px;
+  border-radius: 6%;
+  padding-left: 30px;
+}
 
-  #instructions {
-    width: 40px;
-    height: 60px;
-    margin-left: 20px;
-    margin-top: 100px;
-    opacity:0.8;
-  }
-  #audio{
-    display:none;
-  }
+#instructions{ /*styles the div with an id of instructions*/
+  width: 40px;
+  height: 60px;
+  margin-left: 20px;
+  margin-top: 100px;
+  opacity:0.8;
+}
 
-#backBtn {
+#audio{ /*hides the audio player*/
+  display:none;
+}
+
+#backBtn{ /*styles the back button*/
   float: left;
   color: white;
   font-size: 4em;
