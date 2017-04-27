@@ -27,7 +27,7 @@ $(function () {
 
     function bringForm (seatNumber) {
       $('#formid').css('display','block');
-      $('#formMsg').text("You have selected seat " + seatNumber);
+      $('#formMsg').text("You have selected seat " + seatNumber + ".");
        $("#myform").show(500);
     }
 
@@ -45,7 +45,7 @@ $(function () {
                     reserved: true};
       listArr.push(newObj);
       console.log(newObj);
-      alert("You have reserved seat " + seatNumber);
+      alert("You have reserved seat " + seatNumber + ".");
       cancel();
       $("#" + seatNumber).css('background-color','red');
       $("#" + seatNumber).attr('title','reserved by ' + fName + " " + lName);
