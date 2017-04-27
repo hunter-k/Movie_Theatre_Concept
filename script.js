@@ -4,7 +4,7 @@ $(function () {
 
   //intialize empty array list that will hold our seat user objects
   var listArr = [];
-  //create a global seat nuber variable
+  //create a global seat number variable
   var seatNumber = '';
 
   // create global found variable for findIfReserved function

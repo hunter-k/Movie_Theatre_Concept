@@ -1,107 +1,104 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link href="styles.css" type="text/css" rel="stylesheet"/>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"  crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="utf-8">
+  <link href="styles.css" type="text/css" rel="stylesheet"/>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"  crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.7/css/bootstrap-dialog.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.7/css/bootstrap-dialog.min.css">
 
 
-        <title>Sundown Drive-In</title>
+  <title>Sundown Drive-In</title>
 
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-     <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-  </head>
-  <body>
+</head>
+<body>
 
-    <div id="header" class="jumbotron">
-      <h1><b>Sundown Drive-In Movies</b></h1>
-      <h2>theater under the stars</h2>
+  <div id="header" class="jumbotron">
+    <h1><b>Sundown Drive-In Movies</b></h1>
+    <h2>theater under the stars</h2>
+  </div>
+  <div class="dialog" id="myform">
+    <form id="formid">
+      <span id="backBtn" class="glyphicon glyphicon-menu-left"></span>
+      <h1 id="formMsg"></h1>
+      <h2 id="infoMsg">Please enter your information.</h2>
+      <label class="formLabel">First Name<br> <input id="fName" type="text" required></label><br>
+      <label class="formLabel">Last Name<br> <input id="lName" type="text" required></label><br>
+      <label class="formLabel">Phone Number<br> <input id="pNumber" type="tel" required></label><br>
+      <label class="formLabel">Email<br> <input id="userEmail" type="email" required></label><br>
+      <button type="button" id="reserveButton">Reserve Seat</button>
+      <button type="button" id="cancel">Cancel</button>
+    </form>
+  </div>
+
+  <div id="screen">
+    Screen</div>
+
+    <div id="instructions">
+      <ol>
+        <li>Choose your spot</li>
+        <li>Click the car icon</li>
+        <li>Fill out the form</li>
+        <li>Enjoy the show!</li>
+      </ol>
     </div>
-      <div class="dialog" id="myform">
-        <form id="formid">
-            <span id="backBtn" class="glyphicon glyphicon-menu-left"></span>
-            <h1 id="formMsg"></h1>
-            <h2 id="infoMsg">Please enter your information.</h2>
-            <label class="formLabel">First Name<br> <input id="fName" type="text" required></label><br>
-            <label class="formLabel">Last Name<br> <input id="lName" type="text" required></label><br>
-            <label class="formLabel">Phone Number<br> <input id="pNumber" type="tel" required></label><br>
-            <label class="formLabel">Email<br> <input id="userEmail" type="email" required></label><br>
-            <button type="button" id="reserveButton">Reserve Seat</button>
-            <button type="button" id="cancel">Cancel</button>
-          </form>
-        </div>
 
-        <div id="screen">
-        Screen</div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-3"></div>
+        <button id="A1" class="btn btn-default car"><img src="Drive-in-Beetle.png">A1</button>
+        <button id="A2"class="btn btn-default car"><img src="Drive-in-Beetle.png">A2</button>
+        <div class="col-xs-3"></div>
+        <button id="A3"class="btn btn-default car"><img src="Drive-in-Beetle.png">A3</button>
+        <button id="A4"class="btn btn-default car"><img src="Drive-in-Beetle.png">A4</button>
+        <div class="col-xs-3"></div>
+        <button id="A5" class="btn btn-default car"><img src="Drive-in-Beetle.png">A5</button>
+        <button id="A6" class="btn btn-default car"><img src="Drive-in-Beetle.png">A6</button>
+      </div>
+      <div class="row">
+        <div class="col-xs-4"></div>
+        <button id="B1" class="btn btn-default car"><img src="Drive-in-Beetle.png">B1</button>
+        <button id="B2" class="btn btn-default car"><img src="Drive-in-Beetle.png">B2</button>
+        <div class="col-xs-4"></div>
+        <button id="B3" class="btn btn-default car"><img src="Drive-in-Beetle.png">B3</button>
+        <button id="B4" class="btn btn-default car"><img src="Drive-in-Beetle.png">B4</button>
+        <div class="col-xs-4"></div>
+        <button id="B5" class="btn btn-default car"><img src="Drive-in-Beetle.png">B5</button>
+        <button id="B6" class="btn btn-default car"><img src="Drive-in-Beetle.png">B6</button>
+      </div>
+      <div class="row">
+        <div class="col-xs-4"></div>
+        <button id="C1" class="btn btn-default car"><img src="Drive-in-Beetle.png">C1</button>
+        <button id="C2" class="btn btn-default car"><img src="Drive-in-Beetle.png">C2</button>
+        <div class="col-xs-4"></div>
+        <button id="C3" class="btn btn-default car"><img src="Drive-in-Beetle.png">C3</button>
+        <button id="C4" class="btn btn-default car"><img src="Drive-in-Beetle.png">C4</button>
+        <div class="col-xs-4"></div>
+        <button id="C5" class="btn btn-default car"><img src="Drive-in-Beetle.png">C5</button>
+        <button id="C6" class="btn btn-default car"><img src="Drive-in-Beetle.png">C6</button>
+      </div>
+    </div>
 
-        <div id="instructions">
-          <ol>
-            <li>Choose your spot</li>
-            <li>Click the car icon</li>
-            <li>Fill out the form</li>
-            <li>Enjoy the show!</li>
-          </ol>
-        </div>
-
-
-
-
-      <div class="container">
-
-        <div class="row">
-          <div class="col-xs-3"></div>
-          <button id="A1" class="btn btn-default car"><img src="Drive-in-Beetle.png">A1</button>
-          <button id="A2"class="btn btn-default car"><img src="Drive-in-Beetle.png">A2</button>
-          <div class="col-xs-3"></div>
-          <button id="A3"class="btn btn-default car"><img src="Drive-in-Beetle.png">A3</button>
-          <button id="A4"class="btn btn-default car"><img src="Drive-in-Beetle.png">A4</button>
-          <div class="col-xs-3"></div>
-          <button id="A5" class="btn btn-default car"><img src="Drive-in-Beetle.png">A5</button>
-          <button id="A6" class="btn btn-default car"><img src="Drive-in-Beetle.png">A6</button>
-        </div>
-        <div class="row">
-          <div class="col-xs-4"></div>
-          <button id="B1" class="btn btn-default car"><img src="Drive-in-Beetle.png">B1</button>
-          <button id="B2" class="btn btn-default car"><img src="Drive-in-Beetle.png">B2</button>
-          <div class="col-xs-4"></div>
-          <button id="B3" class="btn btn-default car"><img src="Drive-in-Beetle.png">B3</button>
-          <button id="B4" class="btn btn-default car"><img src="Drive-in-Beetle.png">B4</button>
-          <div class="col-xs-4"></div>
-          <button id="B5" class="btn btn-default car"><img src="Drive-in-Beetle.png">B5</button>
-          <button id="B6" class="btn btn-default car"><img src="Drive-in-Beetle.png">B6</button>
-        </div>
-        <div class="row">
-          <div class="col-xs-4"></div>
-          <button id="C1" class="btn btn-default car"><img src="Drive-in-Beetle.png">C1</button>
-          <button id="C2" class="btn btn-default car"><img src="Drive-in-Beetle.png">C2</button>
-          <div class="col-xs-4"></div>
-          <button id="C3" class="btn btn-default car"><img src="Drive-in-Beetle.png">C3</button>
-          <button id="C4" class="btn btn-default car"><img src="Drive-in-Beetle.png">C4</button>
-          <div class="col-xs-4"></div>
-          <button id="C5" class="btn btn-default car"><img src="Drive-in-Beetle.png">C5</button>
-          <button id="C6" class="btn btn-default car"><img src="Drive-in-Beetle.png">C6</button>
-        </div>
-</div>
-
- <audio controls autoplay id="audio">
-  <source src="crickets.mp3" type="audio/mp3">
- </audio>
+    <audio controls autoplay id="audio">
+      <source src="crickets.mp3" type="audio/mp3">
+      </audio>
 
 
 
-  <script
+    <script
       src="https://code.jquery.com/jquery-3.2.1.min.js"
-      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-      crossorigin="anonymous">
-  </script>
-  <script
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous">
+    </script>
+    <script
       src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
-  </script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.7/js/bootstrap-dialog.min.js"></script>
-  <script type="text/javascript" src="script.js"></script>
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.7/js/bootstrap-dialog.min.js">
+    </script>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
