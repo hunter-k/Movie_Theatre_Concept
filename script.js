@@ -19,7 +19,7 @@ $(function () {
     }
   }
 
-    // On click of car class this function sets the seatNumber variable to the relevent
+    // On click of car class this function sets the seatNumber variable to the relevant
     // seat and if the seat is not already in the listArr it calls the bringForm function
     // and then resets the found variable to false
     $(".car").on('click', function() {
