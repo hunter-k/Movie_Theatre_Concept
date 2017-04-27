@@ -104,9 +104,7 @@ body{ /*position images on body*/
 
 h2{ /*styles the h2 sub heading*/
   text-shadow: 1px 1px 1px #efefef;
-
 }
-
 
 h2{ /*jumbotron text*/
   text-shadow: 1px 1px 1px #efefef;
@@ -149,32 +147,15 @@ input[type=email]{ /*styles the users email text*/
 }
 
 .container{ /*styles the container holding the three rows*/
-  /*margin-left: 200px !important;
-  margin-right: 300px !important;*/
   background-color:black;
   opacity:0.7;
   border-radius:2%;
   border-radius: 4%;
   position: relative;
   margin-bottom: 10px;
-  /*margin: -4%;*/
-  /*width: 900px !important;
-  height:500px;*/
-  /*padding-top:2%;*/
 }
 
-ol{ /*styles the small instruction box*/
 
-
-}
-
-#instructions{ /*styles the div with an id of instructions*/
-  /*width: 40px;
-  height: 60px;
-  margin-left: 20px;
-  margin-top: 100px;
-  opacity:0.8;*/
-}
 
 #audio{ /*hides the audio player*/
   display:none;
