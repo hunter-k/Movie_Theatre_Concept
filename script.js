@@ -1,6 +1,9 @@
 $(function () {
+  console.log('newbranch');
   // initialize tool tips
   $('[data-toggle="tooltip"]').tooltip();
+
+  $('img').attr('class','img-responsive');
 
   //intialize empty array list that will hold our seat user objects
   var listArr = [];
@@ -71,6 +74,7 @@ $(function () {
     // cancel function is called when cancel button is clicked
     $("#cancel").on('click', function() {
       cancel();
+      
     });
     $("#backBtn").on('click', function() {
       cancel();
@@ -81,6 +85,7 @@ $(function () {
     // cancel function that hides info form
     function cancel () {
       $('#myform').hide(300);
+      $("#formid").trigger('reset');
     }
 
 
